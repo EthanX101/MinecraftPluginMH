@@ -1,0 +1,27 @@
+name: HackathonPlugin
+version: '1.0-SNAPSHOT'
+main: me.hackathonPlugins.hackathonPlugin.HackathonPlugin
+api-version: '1.21'
+authors: [ Carlos Matos, Ethan Xiao ]
+description: A plugin for MasseyHacks XI
+
+commands:
+  sukunashrine:
+    description: hehe
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+
+  getcoordinates:
+    description: Gets the current player's coordinates
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+
+  kamehameha:
+    description: Kamehaha or kamekameha
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
+
+  deletestick:
+    description: Kamehaha or kamekameha
+    usage: /<command>
+    permission: yourplugin.yourcommandpermission
